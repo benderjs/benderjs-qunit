@@ -1,0 +1,12 @@
+{
+  "name": "bender-qunit",
+  "version": "0.0.1",
+  "description": "QUnit test runner for Bender.js",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "qunitjs": "~1.14.0"
+  }
+}
