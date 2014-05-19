@@ -1,5 +1,5 @@
 {
-  "name": "bender-qunit",
+  "name": "benderjs-qunit",
   "version": "0.0.1",
   "description": "QUnit test runner for Bender.js",
   "main": "lib/index.js",
