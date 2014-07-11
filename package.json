@@ -1,8 +1,25 @@
 {
 	"name": "benderjs-qunit",
 	"version": "0.1.0",
-	"description": "QUnit test runner for Bender.js",
+	"description": "Adapter for QUnit testing framework for Bender.js",
+	"keywords": [
+		"bender",
+		"benderjs",
+		"adapter",
+		"qunit",
+		"unit",
+		"test"
+	],
+	"author": "CKSource (http://cksource.com/)",
+	"license": "MIT",
 	"main": "lib/index.js",
+	"repository": {
+		"type": "git",
+		"url": "http://github.com/benderjs/benderjs-qunit.git"
+	},
+	"bugs": {
+		"url": "https://github.com/benderjs/benderjs-qunit/issues"
+	},
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
