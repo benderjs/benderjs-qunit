@@ -25,5 +25,8 @@
 	},
 	"dependencies": {
 		"qunitjs": "~1.14.0"
+	},
+	"devDependencies": {
+		"jscs": "^1.5.9"
 	}
 }
