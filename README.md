@@ -18,14 +18,14 @@ Add `benderjs-qunit` to the plugins array in the `bender.js` configuration file:
 ```javascript
 var config = {
     applications: {...}
-        
+
     browsers: [...],
-    
+
     plugins: ['benderjs-qunit'], // load the plugin
-        
+
     tests: {...}
 };
-    
+
 module.exports = config;
 ```
 
@@ -34,13 +34,13 @@ Set `qunit` as a `framework` for entire project or a specific tests group:
 ```javascript
 var config = {
     applications: {...}
-        
+
     browsers: [...],
-        
+
     framework: 'qunit', // use for entire project
-    
+
     plugins: ['benderjs-qunit'],
-        
+
     tests: {
         Foo: {
             basePath: '',
@@ -55,7 +55,6 @@ module.exports = config;
 
 Features
 --------
-- regressions handling
 - single test execution
 
 Todo
